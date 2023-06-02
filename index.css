@@ -1,0 +1,57 @@
+body {
+    background-image: url("track.jpg");
+    background-size: cover;
+    font-family: Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 4px white;
+    height: 100vh;
+}
+
+.container {
+    margin: 40px auto;
+}
+
+h1 {
+    width: 500px;
+    margin: 20px auto;
+    background: rgb(252, 252, 252, 0.4);
+}
+
+h2, p {
+    margin: 10px auto;
+    background: rgb(252, 252, 252, 0.4);
+    width: 250px;
+}
+
+
+h3 {
+    font-size: 50px;
+    background: rgb(252, 252, 252, 0.4);
+    width: 75px;
+    margin: 0 auto 20px auto;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: blue;
+    height: 50px;
+    font-size: 30px;
+}
+
+#save-btn {
+    background: red;
+    width: 100px; 
+    margin-top: 10px;
+}
+
